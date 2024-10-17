@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    int x;
+    char z;
+    float a;
+    char name[100];
+    printf("Enter your name:");
+    scanf("%[^\n]%*c", &name);
+    
+    printf("Enter your age: ");
+    scanf("%d", &x);
+ 
+    printf("Enter your initial: ");
+       scanf("\n");
+    scanf("%c", &z);
+    
+    printf("Enter your grade average: ");
+    scanf("%f", &a);
+    
+    
+    printf("%d %s  %c %.2f", x, name, z, a);
+
+    return 0;
+}
